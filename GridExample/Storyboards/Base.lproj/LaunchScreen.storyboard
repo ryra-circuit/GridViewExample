@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Kyi-LW-rTW">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ydy-OY-Rhq">
+            <objects>
+                <viewController id="Kyi-LW-rTW" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sdE-gb-pk4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qyA-5F-Qzc">
+                                <rect key="frame" x="40" y="325" width="334" height="86"/>
+                                <string key="text">GridView ExamplewithLeading Image Picker Item</string>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered by" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4H-5k-1kK">
+                                <rect key="frame" x="164.66666666666666" y="652" width="85" height="20"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RYRA Circuit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BPr-TY-6FT">
+                                <rect key="frame" x="148" y="692" width="118" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="BPr-TY-6FT" firstAttribute="centerX" secondItem="sdE-gb-pk4" secondAttribute="centerX" id="4gG-04-bqh"/>
+                            <constraint firstItem="j4H-5k-1kK" firstAttribute="centerX" secondItem="BPr-TY-6FT" secondAttribute="centerX" id="6PG-3b-y47"/>
+                            <constraint firstItem="sO5-GM-gZ0" firstAttribute="bottom" secondItem="BPr-TY-6FT" secondAttribute="bottom" constant="20" id="NLk-zJ-dZc"/>
+                            <constraint firstItem="qyA-5F-Qzc" firstAttribute="leading" secondItem="sO5-GM-gZ0" secondAttribute="leading" constant="40" id="O55-uN-JBU"/>
+                            <constraint firstItem="qyA-5F-Qzc" firstAttribute="centerY" secondItem="sdE-gb-pk4" secondAttribute="centerY" id="hv8-5S-Ack"/>
+                            <constraint firstItem="sO5-GM-gZ0" firstAttribute="trailing" secondItem="qyA-5F-Qzc" secondAttribute="trailing" constant="40" id="kj7-vN-aUB"/>
+                            <constraint firstItem="qyA-5F-Qzc" firstAttribute="centerX" secondItem="sdE-gb-pk4" secondAttribute="centerX" id="oar-em-1I4"/>
+                            <constraint firstItem="BPr-TY-6FT" firstAttribute="top" secondItem="j4H-5k-1kK" secondAttribute="bottom" constant="20" id="xOh-nM-2gk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="sO5-GM-gZ0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cOK-Z1-fQD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+</document>
