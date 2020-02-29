@@ -85,7 +85,7 @@
 		60F4946C2345D308008314EF = {
 			isa = PBXGroup;
 			children = (
-				60F494772345D308008314EF /* GridExample */,
+				60F494772345D308008314EF /* GridViewExample */,
 				60F494762345D308008314EF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,7 +98,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		60F494772345D308008314EF /* GridExample */ = {
+		60F494772345D308008314EF /* GridViewExample */ = {
 			isa = PBXGroup;
 			children = (
 				606190F3240ABF36006307B9 /* Application */,
@@ -107,7 +107,7 @@
 				606190F7240ABF6A006307B9 /* Storyboards */,
 				606190F6240ABF5C006307B9 /* SupportFiles */,
 			);
-			path = GridExample;
+			path = GridViewExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,7 +332,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BD7JR8UTYP;
-				INFOPLIST_FILE = GridExample/SupportFiles/Info.plist;
+				INFOPLIST_FILE = GridViewExample/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -350,7 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BD7JR8UTYP;
-				INFOPLIST_FILE = GridExample/SupportFiles/Info.plist;
+				INFOPLIST_FILE = GridViewExample/SupportFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
